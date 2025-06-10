@@ -12,12 +12,12 @@ static ALLOC: mini_alloc::MiniAlloc = mini_alloc::MiniAlloc::INIT;
 /// This module contains functions for interacting with the Pyth oracle.
 pub mod utils;
 
-/// Pyth contract for interacting with the Pyth oracle.
-/// This module contains the types and functions for interacting with the Pyth oracle.
-pub mod pyth;
+// /// Pyth contract for interacting with the Pyth oracle.
+// /// This module contains the types and functions for interacting with the Pyth oracle.
+// pub mod pyth;
 
-#[cfg(target_arch = "wasm32")]
-#[panic_handler]
-fn panic(_info: &core::panic::PanicInfo) -> ! {
-    loop {}
-}
+// #[cfg(target_arch = "wasm32")]
+// #[panic_handler]
+// fn panic(_info: &core::panic::PanicInfo) -> ! {
+//     loop {}
+// }
